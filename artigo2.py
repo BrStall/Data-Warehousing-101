@@ -13,7 +13,7 @@ api_key = os.getenv("API_KEY")
 url = "https://api.rawg.io/api/games"
 params = {
     "key": api_key,
-    "page_size": 5  # Número de jogos por página (ajuste conforme necessário)
+    "page_size": 20  # Número de jogos por página (ajuste conforme necessário)
 }
 
 max_retries = 5
